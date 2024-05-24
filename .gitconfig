@@ -1,0 +1,31 @@
+[user]
+name = Morris Chiu
+email = developer@morris.tw
+
+[alias]
+l = log --oneline
+ll = log --oneline --graph
+lll = log --oneline --graph -- decorate
+
+br = branch
+brd = branch -d
+brD = branch -D
+brm = branch -m
+brM = branch -M
+brv = branch -v
+brvv = branch -vv
+
+c = commit
+ca = commit --amend
+can = commit --amend --no-edit
+
+
+sw = switch
+cp = cherry-pick
+co = checkout
+st = status
+
+unstage = reset HEAD --
+last = log -1 HEAD
+
+
