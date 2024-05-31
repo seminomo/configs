@@ -29,3 +29,6 @@ unstage = reset HEAD --
 last = log -1 HEAD
 
 
+du = !du -sh .git
+
+feature-branch = !sh -c 'branch_name=$(echo $1 | tr " " "-");git checkout -b feature/$branch_name && echo "Created feature branch: $branch_name"' - 
